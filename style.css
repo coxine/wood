@@ -10,3 +10,17 @@ body {
 audio {
     display: none;
 }
+
+#wood {
+    text-align: center;
+}
+
+.wood-quote {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 30%;
+}
+
+.mask-btn {
+    margin: 0 auto;
+}
