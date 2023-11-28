@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "ceym";
+    src: url("//f004.backblazeb2.com/file/Yuxian/fonts/ceym.woff2") format("woff2");
+}
+
+body {
+    font-family: ceym;
+}
+
+audio {
+    display: none;
+}
