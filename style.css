@@ -1,5 +1,6 @@
 @font-face {
     font-family: "ceym";
+    font-display: fallback;
     src: url("//f004.backblazeb2.com/file/Yuxian/fonts/ceym.woff2") format("woff2");
 }
 
