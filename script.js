@@ -12,13 +12,14 @@ var mask = document.getElementById("mask");
 var btn = document.getElementById("btn");
 // 当页面加载完成后，显示遮罩层
 window.onload = function () {
-    document.getElementById("wood-lyric").style = "display:none";
     mask.style.display = "block";
-    document.getElementById("woodQuote").innerHTML = "<b>木木</b>曾经说过：" + woodQuote[Math.floor(Math.random() * woodQuote.length)];
+    document.getElementById("woodQuote").innerHTML = "<wood>木木</wood>曾经说过：" + woodQuote[Math.floor(Math.random() * woodQuote.length)];
 };
 // 当按钮被点击时，隐藏遮罩层
 btn.onclick = function () {
-    document.getElementById("wood-lyric").style = "";
+    document.getElementById("woodLyric").style = "";
+    document.getElementById("woodGif").style = "";
+    document.getElementById("woodGif").src = "/static/wood.gif";
     mask.style.display = "none";
     unmuteAndPlay();
 };

@@ -5,22 +5,39 @@
 
 body {
     font-family: ceym;
+    background: url(/static/bg.svg) no-repeat center fixed;
+    background-size: cover;
 }
 
 audio {
     display: none;
 }
 
+wood {
+    font-size: larger;
+    font-weight: 1000;
+}
+
 #wood {
     text-align: center;
 }
 
-.wood-quote {
-    font-size: 24px;
+#woodGif {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.woodMask {
+    font-size: large;
     text-align: center;
     padding-top: 30%;
 }
 
 .mask-btn {
     margin: 0 auto;
+}
+
+.mdui-toolbar {
+    backdrop-filter: blur(15px);
+    background-color: rgba(255, 255, 255, 0.2);
 }
