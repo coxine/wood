@@ -31,13 +31,9 @@ wood {
     font-size: large;
     text-align: center;
     padding-top: 30%;
+    backdrop-filter: blur(25px)
 }
 
 .mask-btn {
     margin: 0 auto;
-}
-
-.mdui-toolbar {
-    backdrop-filter: blur(15px);
-    background-color: rgba(255, 255, 255, 0.2);
 }
